@@ -1461,6 +1461,10 @@ footer .inner-footer-bottom p a {
     justify-content: center;
     align-items: center;
   }
+  
+}
+.second_img_mobile{
+  display: none;
 }
 .mobile-view {
   display: none !important;
@@ -1471,6 +1475,9 @@ footer .inner-footer-bottom p a {
   }
   .mobile-view {
     display: flex !important;
+  }
+  .second_img_mobile{
+    display: flex;
   }
 }
 .bg-animations {
