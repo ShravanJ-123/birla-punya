@@ -53,8 +53,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mail->Port = 587;
 
     $mail->setFrom('info@punyacentralpune.com', 'Birla Punya');
-    //$mail->addAddress('shravanjare@gmail.com');
-    $mail->addAddress('abhijitsarvade39@gmail.com');
+    $mail->addAddress('shravanjare@gmail.com');
+    //$mail->addAddress('abhijitsarvade39@gmail.com');
 
     // Set email format to HTML
     $mail->isHTML(true);
